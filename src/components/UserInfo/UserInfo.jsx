@@ -1,6 +1,6 @@
 import React from 'react';
 
-const UserInfo = ({ user }) => {
+export const UserInfo = ({ user }) => {
   if (!user) return null; // на випадок, якщо користувача немає
 
   return (
